@@ -1,0 +1,118 @@
+.cardapio-burg{
+    background-color: var(--background-white); 
+}
+
+.tittle-cardapio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--background-white);
+}
+
+.tittle-cardapio h1{
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 3rem;
+}
+
+.tittle-cardapio h2{
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* Cardápio - Hamburguer */
+.food-cardapio{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    padding: 4rem 2rem 0;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    height: 170px;
+    justify-content: space-between;
+    border: 1.5px solid #c2c5d2;
+    border-radius: 5px;
+    transition: all 2ms;
+    cursor: pointer;
+    padding: 0 1rem;
+}
+
+.card:hover{
+    border-color: var(--cursor);
+
+}
+
+.card-img{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.food{    
+    height: 100%;
+    width: 100%;
+}
+
+.card-info{
+    margin-left: 1rem;
+    flex: 1;
+}
+
+.card-tittle{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
+    color: var(--font-grey);
+    font-size: 20px;
+}
+
+.dotted-line{
+    flex: 1;
+    border-bottom: 2px dotted #000;
+    margin: 0 .50rem .30rem;
+}
+
+.card-desc{
+    font-family: 'Oswald', sans-serif;
+}
+
+/* botão - Veja Mais */
+.vejamais{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 3rem 5rem 4.5rem;
+}
+
+.botao-veja{
+    text-transform: uppercase;
+    padding: 15px 30px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: var(--background-yellow);
+    border: var(--cursor);
+    border-radius: 3px;
+    transition: all 400ms;
+    cursor: pointer;
+}
+
+.botao-veja:hover{
+    background-color: var(--background-white);
+    color: var(--font-black);
+    border: 1px solid var(--cursor);
+}

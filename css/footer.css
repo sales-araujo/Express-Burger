@@ -1,0 +1,127 @@
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--background-black);
+    height: 280px;
+}
+
+/* Endereço */
+.endereco{
+    margin: 2rem;
+}
+
+.endereco h2{
+    color: var(--font-white);
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    padding: 1rem;
+}
+
+.endereco p{
+    color: var(--font-white);
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+/* Horário de Funcionamento */
+.horario-burg{
+    margin: 2rem;
+}
+
+.horario-burg h2{
+    color: var(--font-white);
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    line-height: 1.0;
+}
+
+.horario-burg .hh{
+    margin-bottom: 1.5rem;
+}
+
+.horario-burg p{
+    color: var(--font-white);
+    text-transform: uppercase;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+/* Peça agora */
+.pecagora{
+    margin: 2rem;
+}
+
+.number{
+    display: flex;
+}
+
+.pecagora h2{
+    color: var(--font-white);
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 1.5rem;
+}
+
+.pecagora p{
+    padding: 0 .40rem .50rem;
+    color: var(--cursor);
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.fa-whatsapp{
+    font-size: 30px; 
+    color: var(--cursor); 
+    cursor: pointer;
+    padding-top: .40rem;
+}
+
+/* Rede Sociais */
+.redesociais{
+    margin-bottom: .30rem;
+}
+
+.redesociais h2{
+    color: var(--font-white);
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 1.5rem;
+}
+
+.icon-rede i{
+    display: inline; 
+}
+
+.redesociais .fa-github, .fa-linkedin{
+    font-size: 30px; 
+    color: var(--background-white);
+    padding: 0 .7rem 0 1.5rem;
+    cursor: pointer;
+}
+
+.redesociais .fa-github:hover, .fa-linkedin:hover{
+    color: var(--cursor);
+}
+
+/* Direitos Reservados */
+.bottom-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom-footer p{
+    border-top: 1px solid var(--background-white);
+    color: var(--font-white);
+    padding: 2rem 0 3rem;
+    width: 80%;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}

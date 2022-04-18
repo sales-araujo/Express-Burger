@@ -1,0 +1,69 @@
+/* Um pouco sobre o Express - Burger */
+.beneficios-burger{
+    display: flex;
+    align-content: space-around;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--background-yellow);
+    height: 300px; 
+}
+
+/* 1ª coluna */
+.list-1 i, h2, .pg-1, .pg-1-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list-1 h2{
+    text-transform: uppercase;
+    font-size: 24px;
+    font-family: 'Oswald', sans-serif;
+    margin: 1rem;
+}
+
+.list-1 .pg-1, .pg-1-1{
+    font-family: 'Oswald', sans-serif;
+}
+
+/* 2ª coluna */
+.list-2 i, h2, .pg-2, .pg-2-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list-2 h2{
+    text-transform: uppercase;
+    font-size: 24px;
+    font-family: 'Oswald', sans-serif;
+    margin: 1rem;
+}
+
+.list-2 .pg-2, .pg-2-1{
+    font-family: 'Oswald', sans-serif;
+}
+
+/* 3ª coluna */
+.list-3 i, h2, .pg-3, .pg-3-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list-3 h2{
+    text-transform: uppercase;
+    font-size: 24px;
+    font-family: 'Oswald', sans-serif;
+    margin: 1rem;
+}
+
+.list-3 .pg-3, .pg-3-1{
+    font-family: 'Oswald', sans-serif;
+}
+
+/* Icones */
+.fa-burger, .fa-utensils, .fa-truck-fast{
+    font-size: 2rem; 
+    color: var(--background-black);
+}

@@ -1,0 +1,169 @@
+:root {
+    --background-black: #000;
+    --background-white: #fff;
+    --background-yellow: #f7be27;
+    --background-grey: #20232d;
+
+    --font-white: #fff;
+    --font-black: #000;
+    --font-grey:#20232d;
+
+    --icon-red: red;
+
+    --cursor: #f7be27;
+
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: block;
+    background-color: var(--background-black);
+    height: 100vh;
+}
+
+main{
+    width: 100%;
+}
+
+/* Promoção de Inauguração - home */
+.caixa-home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.capa-burg{
+    width: 500px;
+    margin-bottom: 5rem;
+}
+
+.text-home{
+    padding: 0 1.5rem;
+}
+
+.text-home h1{ 
+    display: inline;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Lilita One', cursive;
+    color: var(--font-white);
+    padding-right: 3rem;
+    padding-left: 2rem;
+}
+
+.text-home p{
+    font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-align: center;
+    color: var(--font-white);
+    padding-right: 3rem;
+    padding-top: 3rem;
+    margin-bottom: 2rem;
+    font-size: 18px;
+}
+
+b{
+    color: var(--cursor);
+}
+
+.botao-home{
+    text-transform: uppercase;
+    padding: 15px 30px;
+    margin-left: 8.4rem;
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    border: var(--cursor);
+    border-radius: 3px;
+    background-color: var(--background-yellow);
+    transition: all 400ms;
+    cursor: pointer;
+}
+
+.botao-home:hover{
+    background-color: var(--background-black);
+    color: var(--font-white);
+    border: 1px solid var(--font-white);
+}
+
+/* Slogan - Informação para ir ao cardápio */
+.information-burg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--background-white);
+    height: 400px;  
+}
+
+.slogan-burg{
+    text-transform: uppercase;
+    font-family:  'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 1rem;
+}
+
+.botao-slogan{
+    text-transform: uppercase;
+    padding: 15px 30px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    border: var(--cursor);
+    border-radius: 3px;
+    background-color: var(--background-yellow);
+    transition: all 100ms;
+    cursor: pointer;
+}
+
+.botao-slogan:active{
+    background-color: var(--background-white);
+    color: var(--font-black);
+    border: 1px solid var(--cursor);
+}
+
+/* Gif cheese bacon */
+.gif-burger{
+    background-color: var(--background-yellow);
+}
+
+.cheese-burger{
+    height: 600px;
+    width: 100%;
+}
+
+/* Scrollbar CSS */
+::-webkit-scrollbar-track {
+    background-color: var(--background-white);
+}
+::-webkit-scrollbar {
+    width: 12px;
+    background: var(--background-white);
+}
+::-webkit-scrollbar-thumb {
+    background: var(--background-yellow);
+    border-radius: 8px;
+}
+
+/* Scroll Back to Top */
+#back-to-top{
+    text-decoration: none;
+    color: var(--icon-red);
+    padding: 5px 6px;
+    position: fixed;
+    right: -500px;
+    bottom: 20px;
+    border-radius: 50%;
+}
+
+.show-bottom #back-to-top{
+    right: 20px;
+}

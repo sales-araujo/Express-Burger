@@ -1,0 +1,269 @@
+@media screen and (min-width: 1650px){
+  .cheese-burger{
+    height: 1200px;
+  }
+
+  .food-cardapio{
+    margin: 0 20rem;
+  }
+}
+
+@media screen and (max-width: 1075px){
+    .menu-express{
+        justify-content: space-between;
+        padding: 0 4rem;
+    }
+
+    .nav-burg{
+      justify-self: flex-end;
+    }
+
+    .menu-links{
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      top: 100%;  
+      right: 100%;
+      text-align: center;
+      padding: 1rem;
+      gap: 1rem;
+      background-color: var(--background-grey);
+      transition: 400ms ease;
+      opacity: 0;
+    }
+
+    .menu-links.active{
+      display: flex;
+      opacity: 1;
+    }
+
+    .menu-burger{
+      display: initial;
+    }
+
+    .text-home{
+      padding: 0 2rem 3rem 6rem;
+    }
+
+    cheese-burger{
+      height: 500px;
+    }
+
+    .beneficios-burger{
+      flex-wrap: wrap;
+      justify-content: space-around;
+      height: 380px;
+      padding: 0 1rem;
+    }
+
+    .food-cardapio{
+      grid-template-columns: 1fr;
+      margin: 0 5rem;
+    }
+
+    footer{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      height: 380px;
+    }
+
+    .redesociais .fa-linkedin{
+      margin-left: 12.5rem;
+    }
+}
+
+@media screen and (max-width:760px){
+    .text-home p{
+      font-size: 16px;
+    }
+
+    .botao-home{
+      padding: 12px 22px;
+      margin-left: 7.5rem;
+      font-size: 13px;
+    }
+
+    .cheese-burger{
+      height: 300px;
+    }
+
+    .food-cardapio{
+      margin: 2rem;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .menu-express{
+      padding: 0 1.5rem;
+    }
+
+    .capa-burg{
+      width: 400px;
+    }
+
+    .text-home h1{
+      font-size: 20px;
+    }
+
+    .text-home p{
+      font-size: 13px;
+      padding-top: 2rem;
+      padding-right: 1rem;
+    }
+
+    .botao-home{
+      padding: 8px 18px;
+      margin-left: 5.5rem;
+      font-size: 12px;
+    }
+
+    .slogan-burg{
+      font-size: 25px;
+    }
+
+    .botao-slogan{
+      padding: 10px 20px;
+      font-size: 12px;
+    }
+
+    .cheese-burger{
+      height: 250px;
+    }
+
+    .beneficios-burger{
+      flex-wrap: wrap;
+      justify-content: space-around;
+      height: 310px;
+      gap: .7rem;
+    }
+
+    .fa-burger, .fa-utensils, .fa-truck-fast{
+      font-size: 1.5rem;
+    }
+
+    .beneficios-burger h2{
+      font-size: 14px;
+    }
+
+    .beneficios-burger p{
+      font-size: 12px;
+    }
+
+    .tittle-cardapio h1{
+      font-size: 30px;
+    }
+
+    .tittle-cardapio h2{
+      font-size: 18px;
+    }
+
+    .food-cardapio{
+      margin: 0;
+    }
+
+    .card-img{
+      width: 70px;
+      height: 70px;
+    }
+
+    .card-info h2{
+      font-size: 12px;
+    }
+
+    .card-info p{
+      font-size: 10px;
+    }
+
+    .botao-veja{
+      padding: 10px 20px;
+    }
+
+    .location-olinda h1{
+      font-size: 30px;
+    }
+
+    .endereco h2{
+      font-size: 16px;
+    }
+
+    .endereco p{
+      font-size: 10px;
+    }
+
+    .horario-burg h2{
+      font-size: 16px;
+    }
+
+    .horario-burg p{
+      font-size: 10px;
+    }
+
+    .pecagora h2{
+      font-size: 16px;
+    }
+
+    .pecagora p{
+      font-size: 14px;
+    }
+
+    .fa-whatsapp{
+      font-size: 18px;
+      padding-top: .2rem;
+    }
+
+    .redesociais h2{
+      font-size: 16px;
+      margin-bottom: 1rem;
+    }
+
+    .redesociais .fa-github, .fa-linkedin{
+      font-size: 22px;
+      padding: .3rem;
+    }
+
+    .redesociais .fa-linkedin{
+      margin-left: 5rem;
+    }
+
+    .bottom-footer p{
+      font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 413px){
+  .capa-burg{
+    width: 280px;
+    height: 280px;
+  }
+
+  .text-home h1{
+    font-size: 16px;
+  }
+
+  .text-home p{
+    font-size: 10px;
+  }
+
+  .botao-home{
+    margin-left: 4rem;
+  }
+
+  .beneficios-burger{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 400px;
+  }
+
+  .list-1{
+    text-align: center;
+  }
+
+  .list-2{
+    text-align: center;
+  }
+
+  .list-3{
+    text-align: center;
+  }
+
+}

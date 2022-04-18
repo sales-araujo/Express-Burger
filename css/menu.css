@@ -1,0 +1,64 @@
+/* Menu de navegação */
+.menu-express{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.express{
+    width: 250px;
+}   
+
+.nav-burg{
+    display: inline-block;
+    position: relative;
+}
+
+.burg{
+    display: inline;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--font-white);
+    font-family: 'Lilita One', cursive;
+    font-size: 22px;
+    transition: all 400ms;
+    cursor: pointer;
+    padding: 0.30rem;
+}
+
+.burg i{
+    transition: all 0.5s;
+    cursor: pointer;
+    font-size: 30px; 
+    color: var(--font-white);
+    padding: 0 .5rem;
+}
+
+.burg:hover{
+    color: var(--cursor);
+}
+
+.fa-github:hover, .fa-whatsapp:hover, .fa-linkedin:hover{
+    color: var(--cursor);
+}
+
+.menu-burger{
+    display: none;
+    background-color: transparent;
+    border: 0;
+    padding: .5rem;
+}
+
+.menu-burger i.fa-bars{
+    color: var(--background-white);
+    display: none;
+}
+
+.menu-burger i.fa-xmark{
+    color: var(--icon-red);
+    display: none;
+}
+
+.menu-burger i.active{
+    display: initial;
+}
