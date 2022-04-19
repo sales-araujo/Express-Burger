@@ -58,6 +58,8 @@ footer{
 
 .number{
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .pecagora h2{
@@ -95,8 +97,10 @@ footer{
     margin-bottom: 1.5rem;
 }
 
-.icon-rede i{
-    display: inline; 
+.icon-rede{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
 }
 
 .redesociais .fa-github, .fa-linkedin{

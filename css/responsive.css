@@ -66,10 +66,6 @@
       grid-template-columns: 1fr 1fr;
       height: 380px;
     }
-
-    .redesociais .fa-linkedin{
-      margin-left: 12.5rem;
-    }
 }
 
 @media screen and (max-width:760px){
@@ -183,27 +179,27 @@
     }
 
     .endereco h2{
-      font-size: 16px;
+      font-size: 18px;
     }
 
     .endereco p{
-      font-size: 10px;
+      font-size: 11px;
     }
 
     .horario-burg h2{
-      font-size: 16px;
+      font-size: 18px;
     }
 
     .horario-burg p{
-      font-size: 10px;
+      font-size: 12px;
     }
 
     .pecagora h2{
-      font-size: 16px;
+      font-size: 18px;
     }
 
     .pecagora p{
-      font-size: 14px;
+      font-size: 16px;
     }
 
     .fa-whatsapp{
@@ -221,10 +217,6 @@
       padding: .3rem;
     }
 
-    .redesociais .fa-linkedin{
-      margin-left: 5rem;
-    }
-
     .bottom-footer p{
       font-size: 13px;
     }
@@ -236,21 +228,26 @@
     height: 280px;
   }
 
+  .text-home{
+    padding-left: 3rem;
+  }
+
   .text-home h1{
-    font-size: 16px;
+    font-size: 21px;
   }
 
   .text-home p{
-    font-size: 10px;
+    font-size: 13px;
   }
 
   .botao-home{
-    margin-left: 4rem;
+    margin-left: 5.7rem;
   }
 
   .beneficios-burger{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
     height: 400px;
   }
 
@@ -266,4 +263,11 @@
     text-align: center;
   }
 
+  .pecagora p{
+    font-size: 14px;
+  }
+
+  .fa-whatsapp{
+    padding-bottom: .5rem;
+  }
 }
