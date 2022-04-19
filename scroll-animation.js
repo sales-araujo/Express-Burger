@@ -1,6 +1,6 @@
 const scrollAnima = document.querySelector('[data-anima="scroll"]')
 
-const metadeWindow = window.innerHeight * 8.0
+const metadeWindow = window.innerHeight * 6.0
 
 console.log(metadeWindow)
 
